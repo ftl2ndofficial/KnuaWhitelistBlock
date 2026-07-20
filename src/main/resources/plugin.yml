@@ -1,0 +1,19 @@
+name: KnuaWhitelistBlock
+version: '${version}'
+main: com.ftl2nd.knuawhitelistblock.KnuaWhitelistBlock
+api-version: '1.20'
+author: ftl2nd
+folia-supported: true
+website: https://discord.knualabs.icu
+commands:
+  knuawhitelistblock:
+    description: Administration command for KnuaWhitelistBlock.
+    aliases: [whitelistblock, kwb]
+    permission: knuawhitelistblock.admin
+permissions:
+  knuawhitelistblock.admin:
+    description: Allows administration of KnuaWhitelistBlock.
+    default: op
+  knuawhitelistblock.bypass:
+    description: Allows bypassing all block place and break restrictions.
+    default: op
